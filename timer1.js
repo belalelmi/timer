@@ -1,7 +1,7 @@
 
 let args = process.argv.slice(2);
 args.sort((a, b) => a - b);
-let newargs = args.filter(x => x > 0);   // was going to use .some instead of .filter but that wasn't working
+let newargs = args.filter(x => x > 0);
 // console.log(newargs);
 
 for (const x of newargs) {
